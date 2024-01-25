@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>RENT</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+  <br>
+  <h1>HOUSE RENT PREDICTION</h1>
+ <div class="login">
+  <h2>PREDICT</h2>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method="post">
+        <input type="text" name="BHK" placeholder="BHK" required="required" /><br><br>
+        <input type="text" name="Size" placeholder="Size" required="required" />
+        <label for="City">Choose a city:</label>
+        <select name="City" id="City">
+          <option value="" disabled selected>Select a City</option>
+          <option value=5>Mumbai</option>
+          <option value=4>Bangalore</option>
+          <option value=3>Hyderabad</option>
+          <option value=2>Delhi</option>
+          <option value=1>Chennai</option>
+          <option value=0>Kolkata</option>
+        </select>
+        <br>
+        <br>
+        <label for="Furnishing Status">Choose a Furnishing Status:</label>
+        <select name="Furnishing Status" id="Furnishing Status">
+          <option value="" disabled selected>Choose a Status</option>
+          <option value=2>Furnished</option>
+          <option value=1>Semi-Furnished</option>
+          <option value=0>Unfurnished</option>
+        </select>
+        <br>
+        <br>
+        <input type="text" name="Bathroom" placeholder="Bathroom" required="required" />
+        <br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">CALCULATE</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>{{ prediction_text }}</h3>
+        <br>
+    </form>
+   <br>
+ </div>
+</body>
+</html>

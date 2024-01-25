@@ -1,0 +1,174 @@
+html { width: 100%; height:100%; overflow:hidden; }
+  /* Define the animation */
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.login {
+	/* Set the width and height of the box */
+	width: 110%;
+	max-width: 600px; /* Optional: set a maximum width */
+	height: 550px;
+	text-align: center;
+  
+	/* Center the box */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  
+	/* Add some styling */
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;/* Gradient background */
+	border-radius: 20px;
+	box-shadow: 0 0 20px #ffffff; /* Improved box shadow */
+	padding: 30px;
+	color: #fff; /* Text color */
+	font-family: 'Arial', sans-serif;
+  
+	/* Style the input field */
+	input {
+	  width: 100%;
+	  padding: 15px;
+	  border: none;
+	  border-radius: 10px;
+	  outline: none;
+	  margin-bottom: 15px;
+	  box-sizing: border-box;
+	}
+  
+	/* Style the button */
+	button {
+	  width: 100%;
+	  padding: 15px;
+	  border: none;
+	  border-radius: 10px;
+	  outline: none;
+	  background-color: #2ecc71; /* Green color for the button */
+	  color: #fff;
+	  cursor: pointer;
+	  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+	}
+  
+	/* Hover effect for the button */
+	button:hover {
+	  background-color: #27ae60; /* Darker green on hover */
+	}
+  
+	/* Make the field grow and shrink as needed */
+	flex-grow: 1;
+	flex-shrink: 1;
+} 
+
+h1 { 
+    font-size: 50px;
+    font-family: Arial,Helvetica, sans-serif;
+    background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;	
+	letter-spacing:1px; text-align:center; }
+
+form {
+	width: 600px;
+	height: 550px;
+	text-align: center;
+}
+
+
+.login h2 { 
+    font-size: 40px;
+    font-family: Arial,Helvetica, sans-serif;
+    background: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;	
+	letter-spacing:1px; text-align:center; 
+}
+
+
+	input {
+		width: 100%;
+		margin-bottom: 15px;
+		background: rgb(255, 255, 255); /* Darken the background */
+		border: none;
+		outline: none;
+		padding: 10px;
+		font-size: 14px; /* Slightly larger font size */
+		color: #000000; /* White text */
+		border: 1px solid rgba(255, 255, 255, 0.3); /* Lighten the border */
+		border-radius: 8px; /* Round the corners more */
+		box-shadow: inset 0 -8px 60px rgb(255, 255, 255),
+					0 2px 4px rgba(0, 0, 0, 0.2); /* Adjust the box-shadow */
+	  
+		/* Hover effect */
+		transition: box-shadow 0.5s ease, background 0.5s ease;
+	  }
+	  
+	  /* Add a subtle hover effect */
+	  input:hover {
+		background: rgba(255, 255, 255, 0.1); /* Lighten the background on hover */
+		box-shadow: inset 0 -12px 80px rgb(255, 255, 255),
+					0 4px 8px rgba(0, 0, 0, 0.3);
+	  
+	  }
+	  .dropdown-container {
+		margin-bottom: 20px;
+	  }
+	
+	  /* Style for the labels */
+	  label {
+		display: block;
+		font-size: 18px;
+		color: #fff; /* Blue color */
+		margin-bottom: 8px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: bold;
+	  }
+	
+	  /* Style for the dropdowns */
+	  select {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		box-sizing: border-box;
+		font-size: 16px;
+		background-color: #fff;
+		color: #555;
+	  }
+	
+	  /* Style for the dropdown options */
+	  option {
+		background-color: #fff;
+		color: #555;
+	  }
+	
+	  /* Hover effect for dropdown options */
+	  select:hover,
+	  option:hover {
+		background-color: #f0f0f0;
+    }
+	.login h3 { 
+		font-size: 40px;
+		font-family: Arial,Helvetica, sans-serif;
+		background-color: #fff;
+		background-clip: text;	
+		letter-spacing:1px; text-align:center; 
+	}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
