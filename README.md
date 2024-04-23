@@ -17,7 +17,7 @@ This is a Flask-based web application for predicting house rents using machine l
 - Virtual environment (optional but recommended)
 
 ### Installation
-### FLASK:
+### FLASK
 
     ```bash
    
