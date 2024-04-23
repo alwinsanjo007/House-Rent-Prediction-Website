@@ -21,19 +21,20 @@ This is a Flask-based web application for predicting house rents using machine l
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/house-rent-prediction.git
-
+   
    cd house-rent-prediction
 
-   python -m venv venv
+   pip install virtualenv
+
+   virtualenv venv
 
    venv\Scripts\activate
 
-   pip install -r requirements.txt
+   pip install flask
 
    python app.py
 
-Project Structure
+###Project Structure
 
 house-rent-prediction/
 static/          # Static files (CSS, JavaScript). 
