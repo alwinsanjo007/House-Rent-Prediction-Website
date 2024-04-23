@@ -18,8 +18,6 @@ This is a Flask-based web application for predicting house rents using machine l
 
 ### Installation
 ### FLASK
-
-    ```bash
    
     cd house-rent-prediction
 
