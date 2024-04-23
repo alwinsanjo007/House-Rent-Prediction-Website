@@ -36,14 +36,13 @@ This is a Flask-based web application for predicting house rents using machine l
 Project Structure
 
 house-rent-prediction/
-│
-├── static/          # Static files (CSS, JavaScript)
-├── templates/       # HTML templates
-├── app.py           # Flask application entry point
-├── model.py         # Machine learning model files
-├──model1.pkl        #pickle file 
-├── requirements.txt # Python dependencies
-└── README.md        # Project documentation
+static/          # Static files (CSS, JavaScript)
+templates/       # HTML templates
+app.py           # Flask application entry point
+model.py         # Machine learning model files
+model1.pkl       #pickle file 
+requirements.txt # Python dependencies
+README.md        # Project documentation
 
 
 
