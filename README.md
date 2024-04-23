@@ -1,4 +1,4 @@
-# House Rent Prediction Website
+# House Rent Prediction 
 
 This is a Flask-based web application for predicting house rents using machine learning models. Users can input various features of a property, and the system will provide an estimated rent based on the trained model. Using Linear regression. 
 
