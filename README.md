@@ -19,19 +19,19 @@ This is a Flask-based web application for predicting house rents using machine l
 ### Installation
    ####FLASK:
 
-   ```bash
+    ```bash
    
-   cd house-rent-prediction
+    cd house-rent-prediction
 
-   pip install virtualenv
+    pip install virtualenv
 
-   virtualenv venv
+    virtualenv venv
 
-   venv\Scripts\activate
+    venv\Scripts\activate
 
-   pip install flask
+    pip install flask
 
-   python app.py
+    python app.py
 
 ###Project Structure
 
