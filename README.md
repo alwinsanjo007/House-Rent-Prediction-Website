@@ -17,7 +17,7 @@ This is a Flask-based web application for predicting house rents using machine l
 - Virtual environment (optional but recommended)
 
 ### Installation
-   ####FLASK:
+### FLASK:
 
     ```bash
    
@@ -33,7 +33,7 @@ This is a Flask-based web application for predicting house rents using machine l
 
     python app.py
 
-###Project Structure
+### Project Structure
 
 house-rent-prediction/
 static/          # Static files (CSS, JavaScript). 
